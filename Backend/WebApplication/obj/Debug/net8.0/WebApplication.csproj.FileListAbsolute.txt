@@ -1,0 +1,8 @@
+C:\Users\cskal\OneDrive\Bureaublad\WD-Showcase\profielpagina\WebApplication\WebApplication\obj\Debug\net8.0\WebApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cskal\OneDrive\Bureaublad\WD-Showcase\profielpagina\WebApplication\WebApplication\obj\Debug\net8.0\WebApplication.AssemblyInfoInputs.cache
+C:\Users\cskal\OneDrive\Bureaublad\WD-Showcase\profielpagina\WebApplication\WebApplication\obj\Debug\net8.0\WebApplication.AssemblyInfo.cs
+C:\Users\cskal\OneDrive\Bureaublad\WD-Showcase\profielpagina\WebApplication\WebApplication\obj\Debug\net8.0\WebApplication.csproj.CoreCompileInputs.cache
+C:\Users\cskal\OneDrive\Bureaublad\WD-Showcase\profielpagina\WebApplication\WebApplication\obj\Debug\net8.0\WebApplication.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\cskal\OneDrive\Bureaublad\WD-Showcase\profielpagina\WebApplication\WebApplication\obj\Debug\net8.0\WebApplication.RazorAssemblyInfo.cache
+C:\Users\cskal\OneDrive\Bureaublad\WD-Showcase\profielpagina\WebApplication\WebApplication\obj\Debug\net8.0\WebApplication.RazorAssemblyInfo.cs
+C:\Users\cskal\OneDrive\Bureaublad\WD-Showcase\profielpagina\WebApplication\WebApplication\obj\Debug\net8.0\WebApplication.sourcelink.json
