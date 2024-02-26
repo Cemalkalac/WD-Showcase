@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WD-Showcase\\Backend\\WebApplication1\\WebApplication.csproj",
+      "projectUniqueName": "C:\\School\\WD-Showcase\\Backend\\WebApplication1\\WebApplication.csproj",
       "projectName": "WebApplication",
-      "projectPath": "C:\\WD-Showcase\\Backend\\WebApplication1\\WebApplication.csproj",
+      "projectPath": "C:\\School\\WD-Showcase\\Backend\\WebApplication1\\WebApplication.csproj",
       "packagesPath": "C:\\Users\\cskal\\.nuget\\packages\\",
-      "outputPath": "C:\\WD-Showcase\\Backend\\WebApplication1\\obj\\",
+      "outputPath": "C:\\School\\WD-Showcase\\Backend\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cskal\\AppData\\Roaming\\NuGet\\NuGet.Config",
