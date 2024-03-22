@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SoundHunt Showcase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0af56246d1232d21a8a15275d6ee1b982b054c68")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a648ecb254926092a0059c67d6d767d9883f3d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("SoundHunt Showcase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SoundHunt Showcase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
