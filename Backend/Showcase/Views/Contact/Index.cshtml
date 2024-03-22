@@ -1,0 +1,23 @@
+﻿<div id="contact">
+    <div class="container">
+        <div class="contact">
+            <h1 class="sub-title">Contact</h1>
+            <form id="contactForm" method="post" action="/Contact/SendEmail" class="recaptchaform">
+                <input type="text" id="voornaam" name="voornaam" placeholder="Voornaam" required>
+                <input type="text" id="achternaam" name="achternaam" placeholder="Achternaam" required>
+                <input type="email" id="email" name="email" placeholder="E-mail" required>
+                <input type="text" id="onderwerp" name="subject" placeholder="Het Onderwerp"  required>
+                <textarea id="message" name="message" rows="6" placeholder="Jouw Bericht" required></textarea>
+                <div class="g-recaptcha" data-sitekey="6LducYkpAAAAAL7N0BwPb4om8culz_FOtzlDQWK3"></div>
+                <button type="submit" class="btn btn2">Verzenden</button>
+                <button type="reset" class="btn btn2">Reset</button>
+            </form>
+            @if (TempData["AlertMessage"] != null)
+            {
+                <script type="text/javascript">
+                    alert("@TempData["AlertMessage"]");
+                </script>
+            }
+        </div>
+    </div>
+</div>

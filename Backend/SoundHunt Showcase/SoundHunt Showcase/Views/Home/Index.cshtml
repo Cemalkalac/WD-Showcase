@@ -1,0 +1,25 @@
+﻿<div class="page">
+    <h3>Welke gamemode wil je spelen?</h3>
+    <form class="modes">
+        <input type="radio" id="mode-1" name="mode" value="multiplayer" class="radio" checked>
+        <label class="label label-1" for="mode-1">Multiplayer</label>
+        <input type="radio" id="mode-2" name="mode" value="singleplayer" class="radio">
+        <label class="label label-2" for="mode-2">Singleplayer</label>
+    </form>
+    <h3>Welke genre?</h3>
+    <form method="post" action="@Url.Action("Index", "Game")">
+        <select name="genreDropdown">
+            <option value="">Kies een genre</option>
+            <option value="1iBiJUXCFalQiHq1yGP5H2">Pop</option>
+            <option value="">R&B</option>
+        </select>
+        <button type="submit">Play!</button>
+    </form>
+    
+    <div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+</div>
+

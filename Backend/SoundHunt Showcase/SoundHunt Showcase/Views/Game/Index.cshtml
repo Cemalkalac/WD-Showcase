@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Playlist>
+
+@{
+    // Willekeurig een track selecteren uit de opgehaalde playlist
+    var random = new Random();
+    var randomTrack = Model.ElementAtOrDefault(random.Next(Model.Count()));
+    var randomQuestion = randomTrack.Questions.ElementAtOrDefault(random.Next(randomTrack.Questions.Count));
+    int number = 1;
+}
+<div id="timer"></div>
+<div>
+    @if (randomTrack != null && !string.IsNullOrEmpty(randomTrack.Preview_Url))
+    {
+        <h3>@randomTrack.Artists</h3>
+        <audio id="audio" controls autoplay>
+            <source src="@randomTrack.Preview_Url" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    }
+    else
+    {
+        <p>No preview available for this track.</p>
+    }
+</div>
+@if (randomQuestion != null)
+{
+    <p>@randomQuestion.Text</p>
+    <form class="answers">
+        @foreach (var answer in randomQuestion.Answers)
+        {
+            <input type="radio" id="answer-@number" name="answer" value="@answer" class="radio"/>
+            <label class="answerLabel answerLabel-@number" for="answer-@number">@answer</label>
+            number++;
+        }
+    </form>
+}
+else
+{
+    <p>No question available for this track.</p>
+}

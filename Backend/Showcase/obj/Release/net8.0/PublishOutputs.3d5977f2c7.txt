@@ -1,0 +1,8 @@
+C:\School\WD-Showcase\Backend\Showcase\obj\Release\net8.0\PubTmp\Out\Showcase.exe
+C:\School\WD-Showcase\Backend\Showcase\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\School\WD-Showcase\Backend\Showcase\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\School\WD-Showcase\Backend\Showcase\obj\Release\net8.0\PubTmp\Out\Showcase.dll
+C:\School\WD-Showcase\Backend\Showcase\obj\Release\net8.0\PubTmp\Out\Showcase.deps.json
+C:\School\WD-Showcase\Backend\Showcase\obj\Release\net8.0\PubTmp\Out\Showcase.runtimeconfig.json
+C:\School\WD-Showcase\Backend\Showcase\obj\Release\net8.0\PubTmp\Out\Showcase.pdb
+C:\School\WD-Showcase\Backend\Showcase\obj\Release\net8.0\PubTmp\Out\Newtonsoft.Json.dll

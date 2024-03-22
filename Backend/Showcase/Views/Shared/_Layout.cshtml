@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>CV Cemal Kalac</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/css/contact.css" asp-append-version="true"/>
+    <script defer src="~/js/contact.js" asp-append-version="true"></script>
+    <script defer src="~/js/gdpr.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="~/js/site.js" asp-append-version="true"></script>
+    <script defer src="~/js/captcha.js" asp-append-version="true"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <img src="~/images/Cemal.png" class="logo" />
+                <ul>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Over mij</a></li>
+                    <li><a asp-area="" asp-controller="Contact" asp-action="Index">Contact</a></li>
+                    <li><a href="http://localhost:5104/">SoundHunt</a></li>
+
+                </ul>
+            </nav>
+            <div id="header-text">
+                <p>Student</p>
+                <h1>Hoi, ik ben <span>Cemal</span><br>Kalaç </h1>
+            </div>
+        </div>
+    </header>
+            <div class="container">
+                <main role="main" class="pb-3">
+                    @RenderBody()
+                </main>
+            </div>
+
+    <section class="gdpr-consent hide">
+        <div class="gdpr-consent__description">
+            <p>
+                Deze website gebruikt cookies. We gebruiken cookies om content te
+                personaliseren, voor social media en het analyseren van verkeer op
+                de website, advertenties.
+            </p>
+        </div>
+
+        <div class="gdpr-consent__choice">
+            <button class="gdpr-consent__button--accept">Ja, natuurlijk</button>
+            <button class="gdpr-consent__button--reject">
+                Neu, misschien later
+            </button>
+        </div>
+    </section> 
+</body>
+</html>
